@@ -720,8 +720,11 @@ h2 {
   border-radius: 1rem;
   width: 4rem;
   height: 4rem;
-  margin: -10px 0 0 0;
+  /* margin: -10px 0 0 0; */
   cursor: pointer;
+}
+.content-head__box.open .content-head__attr{
+  margin: -3rem 0 0 0;
 }
 .content-head__attr img {
   width: 2.5rem;
@@ -742,14 +745,14 @@ h2 {
   background: #880e4f;
   box-shadow: 0px 5px 15px rgb(136 14 79 / 30%);
 }
-.circle {
+.content-head__box.open .circle {
   width: 1rem;
   height: 1rem;
   position: absolute;
   bottom: 0;
   border-radius: 50%;
   left: 50%;
-  transform: translate(-50%, 100%);
+  transform: translate(-50%, 200%);
 }
 .content-head__box.game.open .circle {
   background: #0f479f;
@@ -771,7 +774,7 @@ h2 {
   display: none;
 }
 
-.content-description h3 {
+.content-description .service-box h3 {
   font-style: normal;
   font-weight: 800;
   font-size: 1.6rem;
@@ -779,10 +782,23 @@ h2 {
   text-align: center;
   display: none;
   margin-top: 40px;
-  color: #4a148c;
-}
+  /* color: #4a148c; */
+}   
 .content-description .open h3 {
   display: block;
+}
+
+.content-description .content-description__game h3 {
+  color: #0f479f;
+}
+.content-description .content-description__video h3 {
+  color: #1A237E;
+}
+.content-description .content-description__story h3 {
+  color: #4A148C;
+}
+.content-description .content-description__web h3 {
+  color: #880E4F;
 }
 .content-box {
   position: relative;
