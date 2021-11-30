@@ -235,7 +235,7 @@ h2 {
 .hero {
   background-image: url(../images/home-section-1-back-cloude.svg),
     linear-gradient(360deg, #54bdd5 0%, #ddf7ff 120%);
-  height: 3.6rem;
+  height: 36rem;
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
@@ -496,7 +496,7 @@ h2 {
   border-radius: 50%;
   position: absolute;
   top: 7.7rem;
-  right: 32.5rem;
+  right: 23.5rem;
 }
 .processor img {
   width: 2.1rem;
