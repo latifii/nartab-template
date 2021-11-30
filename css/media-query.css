@@ -69,7 +69,7 @@
     line-height: 5.6rem;
   }
   .hero {
-    height: 7rem;
+    height: 70rem;
     background-size: cover;
     background-position: left 60% bottom -280px, bottom;
     margin-bottom: 35rem;
@@ -551,6 +551,7 @@
     display: block;
   }
   .presell {
+    font-family: unset;
     text-decoration: none;
     display: block;
     font-weight: normal;

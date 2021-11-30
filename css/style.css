@@ -88,10 +88,12 @@ h2 {
   z-index: 1000;
   opacity: 0;
   transition:transform .2s ease ;
+  visibility: hidden;
 }
 .menu-wrapper.open .close-icon{
   opacity: 1;
   transform: rotate(180deg);
+  visibility: visible;
 }
 .close-icon img{
   width: 100%;
@@ -163,6 +165,7 @@ h2 {
     -3px 3px 5px rgba(0, 0, 0, 0.05);
 }
 .menu-wrapper.open .main-menu__item .presell {
+  font-family: unset;
   text-decoration: none;
   padding: 0;
   font-weight: 800;
