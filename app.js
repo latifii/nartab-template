@@ -34,13 +34,7 @@ contentBoxes.forEach((box) =>
 
 
 var swiper = new Swiper(".products", {
-  // loop:true,
-  // centeredSlides: true,
-  // slidesPerView: 1,
-  // navigation: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
+
   spaceBetween: 10,
   loop:true,
   centeredSlides: true,
@@ -69,24 +63,4 @@ var swiper = new Swiper(".products", {
   },
 });
 
-// // const swiper = new Swiper('.swiper', {
-// //   // Optional parameters
-// //   direction: 'vertical',
-// //   loop: true,
 
-// //   // If we need pagination
-// //   // pagination: {
-// //   //   el: '.swiper-pagination',
-// //   // },
-
-// //   // Navigation arrows
-// //   navigation: {
-// //     nextEl: '.swiper-button-next',
-// //     prevEl: '.swiper-button-prev',
-// //   },
-
-// //   // And if we need scrollbar
-// //   // scrollbar: {
-// //   //   el: '.swiper-scrollbar',
-// //   // },
-// // });
