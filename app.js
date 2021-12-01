@@ -31,3 +31,62 @@ contentBoxes.forEach((box) =>
     contentImgs[index].classList.remove("dn");
   })
 );
+
+
+var swiper = new Swiper(".products", {
+  // loop:true,
+  // centeredSlides: true,
+  // slidesPerView: 1,
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
+  spaceBetween: 10,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    550: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
+
+// // const swiper = new Swiper('.swiper', {
+// //   // Optional parameters
+// //   direction: 'vertical',
+// //   loop: true,
+
+// //   // If we need pagination
+// //   // pagination: {
+// //   //   el: '.swiper-pagination',
+// //   // },
+
+// //   // Navigation arrows
+// //   navigation: {
+// //     nextEl: '.swiper-button-next',
+// //     prevEl: '.swiper-button-prev',
+// //   },
+
+// //   // And if we need scrollbar
+// //   // scrollbar: {
+// //   //   el: '.swiper-scrollbar',
+// //   // },
+// // });

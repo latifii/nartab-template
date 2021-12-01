@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/media-query.css">
@@ -16,7 +16,7 @@
 <body>
   <nav class="main-menu">
     <div class="backdrop"></div>
-    
+
     <div class=" menu-wrapper container-nav">
       <div class="close-icon">
         <img src="./images/svgs/icons9-close.svg" alt="">
@@ -29,8 +29,8 @@
       </div>
       <div class="main-menu__item">
         <div class="main-menu__res">
-          <a  class="presell">
-              ورود
+          <a class="presell">
+            ورود
           </a>
           <img class="logo-res" src="/images/svgs/logo.svg" alt="nartab logo"></div>
         <ul class="main-menu__item__nav">
@@ -358,10 +358,11 @@
     <section class="dash-section">
       <img class="img-dash" src="./images/home-section-8-dash.png" alt="article">
     </section>
-    <section class="products">
+    <section class="products swiper">
+      <!-- <div class="container"></div> -->
       <h2>همین الان سفارش دهید</h2>
-      <div class="products-box">
-        <div class="product">
+      <div class="products-box swiper-wrapper">
+        <div class="product swiper-slide">
           <a class="product-link" href="#">
             <div class="box">
               <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
@@ -381,7 +382,7 @@
             </h4>
           </div>
         </div>
-        <div class="product ">
+        <div class="product swiper-slide">
           <a class="product-link" href="#">
             <div class="box">
               <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
@@ -402,7 +403,70 @@
             </h4>
           </div>
         </div>
-        <div class="product">
+        <div class="product swiper-slide">
+          <a class="product-link" href="#">
+            <div class="box">
+              <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
+              <div class="color-offset">
+                <span class="color-1"></span>
+                <span class="color-2"></span>
+              </div>
+              <div class="plus">
+              </div>
+            </div>
+
+          </a>
+          <div class="product-description">
+            <h3> نارتب NARTAB2 E7</h3>
+            <h4>
+              <span class="price">۲۷,۰۰۰,۰۰۰</span>
+              <span>ریال</span>
+            </h4>
+          </div>
+        </div>
+        <div class="product swiper-slide">
+          <a class="product-link" href="#">
+            <div class="box">
+              <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
+              <div class="color-offset">
+                <span class="color-1"></span>
+                <span class="color-2"></span>
+              </div>
+              <div class="plus">
+              </div>
+            </div>
+
+          </a>
+          <div class="product-description">
+            <h3> نارتب NARTAB2 E7</h3>
+            <h4>
+              <span class="price">۲۷,۰۰۰,۰۰۰</span>
+              <span>ریال</span>
+            </h4>
+          </div>
+        </div>
+        <div class="product swiper-slide">
+          <a class="product-link" href="#">
+            <div class="box">
+              <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
+              <div class="color-offset">
+                <span class="color-1"></span>
+                <span class="color-2"></span>
+              </div>
+              <div class="plus">
+              </div>
+            </div>
+
+          </a>
+          <div class="product-description">
+            <h3> نارتب NARTAB2 E7</h3>
+            <h4>
+              <span class="price">۲۷,۰۰۰,۰۰۰</span>
+              <span>ریال</span>
+            </h4>
+          </div>
+        </div>
+        <div class="product swiper-slide">
           <a class="product-link" href="#">
             <div class="box">
               <img src="./images/home-section-9-Nartab2_E8-front.png" alt="">
@@ -424,6 +488,8 @@
           </div>
         </div>
       </div>
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
     </section>
     <footer class="footer">
       <div class="footer-box container">
@@ -505,6 +571,7 @@
     <span>تمامی حقوق برای نارتب محفوظ است.</span>
   </div>
 
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
 </body>
 

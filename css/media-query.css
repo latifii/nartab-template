@@ -387,6 +387,9 @@
   .img-icon-49 {
     display: none;
   }
+  .products{
+    max-width: 75%;
+  }
   .products h2 {
     font-size: 2.8rem;
     line-height: 5.6rem;
@@ -394,15 +397,22 @@
   }
 
   .product{
-    flex: 1 1 25%;
+    /* flex: 1 1 25%; */
+    width: 15rem;
+    margin-left: 10rem;
   }
+  .box img {
+    width: 100%;
+    margin-top: -7rem;
+    margin-bottom: 1rem;
+}
   .product-description h3 {
-    font-size: 2.1rem;
-    line-height: 4.2rem;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
   }
   .product-description h4 {
-    font-size: 2.1rem;
-    line-height: 4.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     margin: 2px;
   }
   .footer-box {
